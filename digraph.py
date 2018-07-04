@@ -5,7 +5,7 @@
 #
 #####################################################
 
-#[(from, edge, to)]
+#[(vertice, edge, vertice)]
 
 
     def __init__(self):
@@ -15,6 +15,8 @@
     def insertRelation(self, x, y, z):
         relation = (x,y,z)
         self.graph.append(relation)
+
+    #def transformUnGraph(g):
 
 
 
